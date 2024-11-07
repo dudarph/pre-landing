@@ -1,0 +1,123 @@
+/* Base
+==============================================================================*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-style: normal;
+	font-size: 28px;
+	line-height: 56px;
+	font-weight: 300;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 64px;
+}
+
+/* ========================================================================== */
+
+/* Header
+==============================================================================*/
+.header__top {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(89, 89, 252);
+}
+
+.header__wrapper {
+	position: relative;
+}
+
+.header__title {
+	max-width: 800px;
+
+	text-align: center;
+	color: aliceblue;
+	font-weight: bold;
+
+	background-color: #5959fc;
+
+	position: absolute;
+	top: 0;
+	left: 59%;
+}
+
+/* ========================================================================== */
+
+
+/* Hero area
+==============================================================================*/
+.hero {
+	margin-bottom: 176px;
+}
+
+.hero__wrapper {
+	padding-top: 288px;
+	text-align: center;
+}
+
+.hero__illustration {
+	width: 104px;
+	height: 104px;
+
+	transform: rotate(-30deg);
+	position: relative;
+	top: 20%;
+	left: -57%;
+}
+
+.hero__title {
+	margin-bottom: 32px;
+
+	font-size: 64px;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+.hero__subtitle {
+	margin-bottom: 32px;
+}
+
+.hero__link {
+	padding: 16px 32px;
+
+	font-size: 40px;
+	text-align: center;
+	color: aliceblue;
+	text-decoration: none;
+
+	background-color: rgb(89, 89, 252);
+	border-radius: 16px;
+	transition: .5s linear;
+}
+
+.hero__link:hover,
+.hero__link:focus,
+.hero__link:active {
+	background-color: rgb(38, 38, 254);
+}
+
+/* ========================================================================== */
+
+/* Footer
+==============================================================================*/
+.footer {
+	color: aliceblue;
+	background-color: rgb(89, 89, 252);
+}
+
+/* ========================================================================== */
